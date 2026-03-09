@@ -1,0 +1,2305 @@
+Using CPU.
+
+********** Iteration 0 ************
+Shape of obs: torch.Size([4037, 4])
+Shape of actions: torch.Size([4037])
+Shape of log probabilities: torch.Size([4037])
+
+Collecting data for eval...
+Eval_AverageReturn : 24.647058486938477
+Eval_StdReturn : 19.25659942626953
+Eval_MaxReturn : 85.0
+Eval_MinReturn : 11.0
+Eval_AverageEpLen : 24.647058823529413
+Train_AverageReturn : 22.427778244018555
+Train_StdReturn : 10.664599418640137
+Train_MaxReturn : 63.0
+Train_MinReturn : 8.0
+Train_AverageEpLen : 22.427777777777777
+Actor Loss : 18.98116111755371
+Train_EnvstepsSoFar : 4037
+TimeSinceStart : 5.3001580238342285
+Initial_DataCollection_AverageReturn : 22.427778244018555
+Done logging...
+
+
+
+********** Iteration 1 ************
+Shape of obs: torch.Size([4009, 4])
+Shape of actions: torch.Size([4009])
+Shape of log probabilities: torch.Size([4009])
+
+Collecting data for eval...
+Eval_AverageReturn : 32.30769348144531
+Eval_StdReturn : 17.560379028320312
+Eval_MaxReturn : 61.0
+Eval_MinReturn : 13.0
+Eval_AverageEpLen : 32.30769230769231
+Train_AverageReturn : 28.841726303100586
+Train_StdReturn : 16.19363784790039
+Train_MaxReturn : 97.0
+Train_MinReturn : 10.0
+Train_AverageEpLen : 28.841726618705035
+Actor Loss : 25.496078491210938
+Train_EnvstepsSoFar : 8046
+TimeSinceStart : 10.904672861099243
+Done logging...
+
+
+
+********** Iteration 2 ************
+Shape of obs: torch.Size([4057, 4])
+Shape of actions: torch.Size([4057])
+Shape of log probabilities: torch.Size([4057])
+
+Collecting data for eval...
+Eval_AverageReturn : 41.29999923706055
+Eval_StdReturn : 11.975391387939453
+Eval_MaxReturn : 55.0
+Eval_MinReturn : 18.0
+Eval_AverageEpLen : 41.3
+Train_AverageReturn : 36.5495491027832
+Train_StdReturn : 19.637130737304688
+Train_MaxReturn : 86.0
+Train_MinReturn : 10.0
+Train_AverageEpLen : 36.549549549549546
+Actor Loss : 30.875398635864258
+Train_EnvstepsSoFar : 12103
+TimeSinceStart : 16.616798400878906
+Done logging...
+
+
+
+********** Iteration 3 ************
+Shape of obs: torch.Size([4010, 4])
+Shape of actions: torch.Size([4010])
+Shape of log probabilities: torch.Size([4010])
+
+Collecting data for eval...
+Eval_AverageReturn : 55.55555725097656
+Eval_StdReturn : 24.069856643676758
+Eval_MaxReturn : 101.0
+Eval_MinReturn : 27.0
+Eval_AverageEpLen : 55.55555555555556
+Train_AverageReturn : 43.58695602416992
+Train_StdReturn : 21.209182739257812
+Train_MaxReturn : 120.0
+Train_MinReturn : 14.0
+Train_AverageEpLen : 43.58695652173913
+Actor Loss : 34.34833908081055
+Train_EnvstepsSoFar : 16113
+TimeSinceStart : 22.326353788375854
+Done logging...
+
+
+
+********** Iteration 4 ************
+Shape of obs: torch.Size([4042, 4])
+Shape of actions: torch.Size([4042])
+Shape of log probabilities: torch.Size([4042])
+
+Collecting data for eval...
+Eval_AverageReturn : 59.14285659790039
+Eval_StdReturn : 28.970075607299805
+Eval_MaxReturn : 114.0
+Eval_MinReturn : 23.0
+Eval_AverageEpLen : 59.142857142857146
+Train_AverageReturn : 54.621620178222656
+Train_StdReturn : 27.40669822692871
+Train_MaxReturn : 124.0
+Train_MinReturn : 16.0
+Train_AverageEpLen : 54.62162162162162
+Actor Loss : 42.237117767333984
+Train_EnvstepsSoFar : 20155
+TimeSinceStart : 27.718936443328857
+Done logging...
+
+
+
+********** Iteration 5 ************
+Shape of obs: torch.Size([4031, 4])
+Shape of actions: torch.Size([4031])
+Shape of log probabilities: torch.Size([4031])
+
+Collecting data for eval...
+Eval_AverageReturn : 62.625
+Eval_StdReturn : 21.130176544189453
+Eval_MaxReturn : 102.0
+Eval_MinReturn : 39.0
+Eval_AverageEpLen : 62.625
+Train_AverageReturn : 59.27941131591797
+Train_StdReturn : 29.64984130859375
+Train_MaxReturn : 187.0
+Train_MinReturn : 16.0
+Train_AverageEpLen : 59.279411764705884
+Actor Loss : 44.7958984375
+Train_EnvstepsSoFar : 24186
+TimeSinceStart : 33.22206258773804
+Done logging...
+
+
+
+********** Iteration 6 ************
+Shape of obs: torch.Size([4045, 4])
+Shape of actions: torch.Size([4045])
+Shape of log probabilities: torch.Size([4045])
+
+Collecting data for eval...
+Eval_AverageReturn : 71.66666412353516
+Eval_StdReturn : 13.17404842376709
+Eval_MaxReturn : 86.0
+Eval_MinReturn : 47.0
+Eval_AverageEpLen : 71.66666666666667
+Train_AverageReturn : 65.24193572998047
+Train_StdReturn : 27.02727699279785
+Train_MaxReturn : 145.0
+Train_MinReturn : 17.0
+Train_AverageEpLen : 65.24193548387096
+Actor Loss : 45.19188690185547
+Train_EnvstepsSoFar : 28231
+TimeSinceStart : 39.02359437942505
+Done logging...
+
+
+
+********** Iteration 7 ************
+Shape of obs: torch.Size([4029, 4])
+Shape of actions: torch.Size([4029])
+Shape of log probabilities: torch.Size([4029])
+
+Collecting data for eval...
+Eval_AverageReturn : 61.28571319580078
+Eval_StdReturn : 13.284945487976074
+Eval_MaxReturn : 81.0
+Eval_MinReturn : 38.0
+Eval_AverageEpLen : 61.285714285714285
+Train_AverageReturn : 66.04917907714844
+Train_StdReturn : 30.631296157836914
+Train_MaxReturn : 183.0
+Train_MinReturn : 25.0
+Train_AverageEpLen : 66.04918032786885
+Actor Loss : 46.646541595458984
+Train_EnvstepsSoFar : 32260
+TimeSinceStart : 44.5132577419281
+Done logging...
+
+
+
+********** Iteration 8 ************
+Shape of obs: torch.Size([4067, 4])
+Shape of actions: torch.Size([4067])
+Shape of log probabilities: torch.Size([4067])
+
+Collecting data for eval...
+Eval_AverageReturn : 63.0
+Eval_StdReturn : 13.244945526123047
+Eval_MaxReturn : 92.0
+Eval_MinReturn : 46.0
+Eval_AverageEpLen : 63.0
+Train_AverageReturn : 73.9454574584961
+Train_StdReturn : 35.842288970947266
+Train_MaxReturn : 200.0
+Train_MinReturn : 26.0
+Train_AverageEpLen : 73.94545454545455
+Actor Loss : 53.0692253112793
+Train_EnvstepsSoFar : 36327
+TimeSinceStart : 50.10023355484009
+Done logging...
+
+
+
+********** Iteration 9 ************
+Shape of obs: torch.Size([4005, 4])
+Shape of actions: torch.Size([4005])
+Shape of log probabilities: torch.Size([4005])
+
+Collecting data for eval...
+Eval_AverageReturn : 86.0
+Eval_StdReturn : 48.60041046142578
+Eval_MaxReturn : 178.0
+Eval_MinReturn : 36.0
+Eval_AverageEpLen : 86.0
+Train_AverageReturn : 81.73469543457031
+Train_StdReturn : 33.611083984375
+Train_MaxReturn : 191.0
+Train_MinReturn : 38.0
+Train_AverageEpLen : 81.73469387755102
+Actor Loss : 54.534141540527344
+Train_EnvstepsSoFar : 40332
+TimeSinceStart : 55.74360942840576
+Done logging...
+
+
+
+********** Iteration 10 ************
+Shape of obs: torch.Size([4058, 4])
+Shape of actions: torch.Size([4058])
+Shape of log probabilities: torch.Size([4058])
+
+Collecting data for eval...
+Eval_AverageReturn : 101.5
+Eval_StdReturn : 46.95476531982422
+Eval_MaxReturn : 174.0
+Eval_MinReturn : 46.0
+Eval_AverageEpLen : 101.5
+Train_AverageReturn : 90.17778015136719
+Train_StdReturn : 38.084285736083984
+Train_MaxReturn : 194.0
+Train_MinReturn : 28.0
+Train_AverageEpLen : 90.17777777777778
+Actor Loss : 59.999244689941406
+Train_EnvstepsSoFar : 44390
+TimeSinceStart : 61.25539493560791
+Done logging...
+
+
+
+********** Iteration 11 ************
+Shape of obs: torch.Size([4044, 4])
+Shape of actions: torch.Size([4044])
+Shape of log probabilities: torch.Size([4044])
+
+Collecting data for eval...
+Eval_AverageReturn : 107.25
+Eval_StdReturn : 48.36514663696289
+Eval_MaxReturn : 174.0
+Eval_MinReturn : 39.0
+Eval_AverageEpLen : 107.25
+Train_AverageReturn : 96.28571319580078
+Train_StdReturn : 47.10691452026367
+Train_MaxReturn : 200.0
+Train_MinReturn : 30.0
+Train_AverageEpLen : 96.28571428571429
+Actor Loss : 66.2000503540039
+Train_EnvstepsSoFar : 48434
+TimeSinceStart : 67.7383463382721
+Done logging...
+
+
+
+********** Iteration 12 ************
+Shape of obs: torch.Size([4028, 4])
+Shape of actions: torch.Size([4028])
+Shape of log probabilities: torch.Size([4028])
+
+Collecting data for eval...
+Eval_AverageReturn : 105.5999984741211
+Eval_StdReturn : 34.1443977355957
+Eval_MaxReturn : 129.0
+Eval_MinReturn : 38.0
+Eval_AverageEpLen : 105.6
+Train_AverageReturn : 122.06060791015625
+Train_StdReturn : 43.06157684326172
+Train_MaxReturn : 200.0
+Train_MinReturn : 31.0
+Train_AverageEpLen : 122.06060606060606
+Actor Loss : 76.46729278564453
+Train_EnvstepsSoFar : 52462
+TimeSinceStart : 73.62363815307617
+Done logging...
+
+
+
+********** Iteration 13 ************
+Shape of obs: torch.Size([4028, 4])
+Shape of actions: torch.Size([4028])
+Shape of log probabilities: torch.Size([4028])
+
+Collecting data for eval...
+Eval_AverageReturn : 157.0
+Eval_StdReturn : 32.93427658081055
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 120.0
+Eval_AverageEpLen : 157.0
+Train_AverageReturn : 125.875
+Train_StdReturn : 45.980125427246094
+Train_MaxReturn : 200.0
+Train_MinReturn : 54.0
+Train_AverageEpLen : 125.875
+Actor Loss : 77.77542877197266
+Train_EnvstepsSoFar : 56490
+TimeSinceStart : 79.62629961967468
+Done logging...
+
+
+
+********** Iteration 14 ************
+Shape of obs: torch.Size([4029, 4])
+Shape of actions: torch.Size([4029])
+Shape of log probabilities: torch.Size([4029])
+
+Collecting data for eval...
+Eval_AverageReturn : 152.6666717529297
+Eval_StdReturn : 35.11251449584961
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 116.0
+Eval_AverageEpLen : 152.66666666666666
+Train_AverageReturn : 134.3000030517578
+Train_StdReturn : 43.93111801147461
+Train_MaxReturn : 200.0
+Train_MinReturn : 39.0
+Train_AverageEpLen : 134.3
+Actor Loss : 81.29993438720703
+Train_EnvstepsSoFar : 60519
+TimeSinceStart : 85.3267719745636
+Done logging...
+
+
+
+********** Iteration 15 ************
+Shape of obs: torch.Size([4178, 4])
+Shape of actions: torch.Size([4178])
+Shape of log probabilities: torch.Size([4178])
+
+Collecting data for eval...
+Eval_AverageReturn : 163.6666717529297
+Eval_StdReturn : 35.78019332885742
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 115.0
+Eval_AverageEpLen : 163.66666666666666
+Train_AverageReturn : 139.26666259765625
+Train_StdReturn : 31.74789810180664
+Train_MaxReturn : 200.0
+Train_MinReturn : 95.0
+Train_AverageEpLen : 139.26666666666668
+Actor Loss : 79.39583587646484
+Train_EnvstepsSoFar : 64697
+TimeSinceStart : 91.52136301994324
+Done logging...
+
+
+
+********** Iteration 16 ************
+Shape of obs: torch.Size([4163, 4])
+Shape of actions: torch.Size([4163])
+Shape of log probabilities: torch.Size([4163])
+
+Collecting data for eval...
+Eval_AverageReturn : 138.3333282470703
+Eval_StdReturn : 45.886329650878906
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 90.0
+Eval_AverageEpLen : 138.33333333333334
+Train_AverageReturn : 134.2903289794922
+Train_StdReturn : 39.065860748291016
+Train_MaxReturn : 200.0
+Train_MinReturn : 75.0
+Train_AverageEpLen : 134.29032258064515
+Actor Loss : 78.08529663085938
+Train_EnvstepsSoFar : 68860
+TimeSinceStart : 97.24042344093323
+Done logging...
+
+
+
+********** Iteration 17 ************
+Shape of obs: torch.Size([4112, 4])
+Shape of actions: torch.Size([4112])
+Shape of log probabilities: torch.Size([4112])
+
+Collecting data for eval...
+Eval_AverageReturn : 145.3333282470703
+Eval_StdReturn : 36.62725067138672
+Eval_MaxReturn : 177.0
+Eval_MinReturn : 94.0
+Eval_AverageEpLen : 145.33333333333334
+Train_AverageReturn : 128.5
+Train_StdReturn : 34.19886779785156
+Train_MaxReturn : 200.0
+Train_MinReturn : 75.0
+Train_AverageEpLen : 128.5
+Actor Loss : 73.37804412841797
+Train_EnvstepsSoFar : 72972
+TimeSinceStart : 102.79267024993896
+Done logging...
+
+
+
+********** Iteration 18 ************
+Shape of obs: torch.Size([4022, 4])
+Shape of actions: torch.Size([4022])
+Shape of log probabilities: torch.Size([4022])
+
+Collecting data for eval...
+Eval_AverageReturn : 139.6666717529297
+Eval_StdReturn : 17.441967010498047
+Eval_MaxReturn : 164.0
+Eval_MinReturn : 124.0
+Eval_AverageEpLen : 139.66666666666666
+Train_AverageReturn : 129.74192810058594
+Train_StdReturn : 40.55101776123047
+Train_MaxReturn : 200.0
+Train_MinReturn : 70.0
+Train_AverageEpLen : 129.74193548387098
+Actor Loss : 77.49087524414062
+Train_EnvstepsSoFar : 76994
+TimeSinceStart : 108.30347442626953
+Done logging...
+
+
+
+********** Iteration 19 ************
+Shape of obs: torch.Size([4125, 4])
+Shape of actions: torch.Size([4125])
+Shape of log probabilities: torch.Size([4125])
+
+Collecting data for eval...
+Eval_AverageReturn : 144.0
+Eval_StdReturn : 2.4494898319244385
+Eval_MaxReturn : 147.0
+Eval_MinReturn : 141.0
+Eval_AverageEpLen : 144.0
+Train_AverageReturn : 133.06451416015625
+Train_StdReturn : 39.736175537109375
+Train_MaxReturn : 200.0
+Train_MinReturn : 30.0
+Train_AverageEpLen : 133.06451612903226
+Actor Loss : 77.12784576416016
+Train_EnvstepsSoFar : 81119
+TimeSinceStart : 114.17594861984253
+Done logging...
+
+
+
+********** Iteration 20 ************
+Shape of obs: torch.Size([4069, 4])
+Shape of actions: torch.Size([4069])
+Shape of log probabilities: torch.Size([4069])
+
+Collecting data for eval...
+Eval_AverageReturn : 189.0
+Eval_StdReturn : 7.348469257354736
+Eval_MaxReturn : 198.0
+Eval_MinReturn : 180.0
+Eval_AverageEpLen : 189.0
+Train_AverageReturn : 150.70370483398438
+Train_StdReturn : 39.425331115722656
+Train_MaxReturn : 200.0
+Train_MinReturn : 94.0
+Train_AverageEpLen : 150.7037037037037
+Actor Loss : 84.15167236328125
+Train_EnvstepsSoFar : 85188
+TimeSinceStart : 119.85476565361023
+Done logging...
+
+
+
+********** Iteration 21 ************
+Shape of obs: torch.Size([4108, 4])
+Shape of actions: torch.Size([4108])
+Shape of log probabilities: torch.Size([4108])
+
+Collecting data for eval...
+Eval_AverageReturn : 145.6666717529297
+Eval_StdReturn : 41.2822265625
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 100.0
+Eval_AverageEpLen : 145.66666666666666
+Train_AverageReturn : 146.7142791748047
+Train_StdReturn : 34.63983917236328
+Train_MaxReturn : 200.0
+Train_MinReturn : 85.0
+Train_AverageEpLen : 146.71428571428572
+Actor Loss : 81.0834732055664
+Train_EnvstepsSoFar : 89296
+TimeSinceStart : 125.70171809196472
+Done logging...
+
+
+
+********** Iteration 22 ************
+Shape of obs: torch.Size([4140, 4])
+Shape of actions: torch.Size([4140])
+Shape of log probabilities: torch.Size([4140])
+
+Collecting data for eval...
+Eval_AverageReturn : 119.25
+Eval_StdReturn : 15.105875968933105
+Eval_MaxReturn : 145.0
+Eval_MinReturn : 108.0
+Eval_AverageEpLen : 119.25
+Train_AverageReturn : 142.7586212158203
+Train_StdReturn : 36.99082565307617
+Train_MaxReturn : 200.0
+Train_MinReturn : 71.0
+Train_AverageEpLen : 142.75862068965517
+Actor Loss : 78.62491607666016
+Train_EnvstepsSoFar : 93436
+TimeSinceStart : 131.47487115859985
+Done logging...
+
+
+
+********** Iteration 23 ************
+Shape of obs: torch.Size([4055, 4])
+Shape of actions: torch.Size([4055])
+Shape of log probabilities: torch.Size([4055])
+
+Collecting data for eval...
+Eval_AverageReturn : 91.4000015258789
+Eval_StdReturn : 25.39763641357422
+Eval_MaxReturn : 121.0
+Eval_MinReturn : 46.0
+Eval_AverageEpLen : 91.4
+Train_AverageReturn : 135.1666717529297
+Train_StdReturn : 33.35873794555664
+Train_MaxReturn : 200.0
+Train_MinReturn : 81.0
+Train_AverageEpLen : 135.16666666666666
+Actor Loss : 73.7684097290039
+Train_EnvstepsSoFar : 97491
+TimeSinceStart : 136.95233058929443
+Done logging...
+
+
+
+********** Iteration 24 ************
+Shape of obs: torch.Size([4084, 4])
+Shape of actions: torch.Size([4084])
+Shape of log probabilities: torch.Size([4084])
+
+Collecting data for eval...
+Eval_AverageReturn : 100.0
+Eval_StdReturn : 35.84689712524414
+Eval_MaxReturn : 131.0
+Eval_MinReturn : 39.0
+Eval_AverageEpLen : 100.0
+Train_AverageReturn : 113.44444274902344
+Train_StdReturn : 27.61787223815918
+Train_MaxReturn : 200.0
+Train_MinReturn : 61.0
+Train_AverageEpLen : 113.44444444444444
+Actor Loss : 62.24443817138672
+Train_EnvstepsSoFar : 101575
+TimeSinceStart : 142.5396373271942
+Done logging...
+
+
+
+********** Iteration 25 ************
+Shape of obs: torch.Size([4076, 4])
+Shape of actions: torch.Size([4076])
+Shape of log probabilities: torch.Size([4076])
+
+Collecting data for eval...
+Eval_AverageReturn : 80.19999694824219
+Eval_StdReturn : 26.141155242919922
+Eval_MaxReturn : 102.0
+Eval_MinReturn : 32.0
+Eval_AverageEpLen : 80.2
+Train_AverageReturn : 101.9000015258789
+Train_StdReturn : 28.42340660095215
+Train_MaxReturn : 200.0
+Train_MinReturn : 38.0
+Train_AverageEpLen : 101.9
+Actor Loss : 57.20670700073242
+Train_EnvstepsSoFar : 105651
+TimeSinceStart : 148.200336933136
+Done logging...
+
+
+
+********** Iteration 26 ************
+Shape of obs: torch.Size([4031, 4])
+Shape of actions: torch.Size([4031])
+Shape of log probabilities: torch.Size([4031])
+
+Collecting data for eval...
+Eval_AverageReturn : 90.80000305175781
+Eval_StdReturn : 33.57022476196289
+Eval_MaxReturn : 118.0
+Eval_MinReturn : 27.0
+Eval_AverageEpLen : 90.8
+Train_AverageReturn : 98.31707000732422
+Train_StdReturn : 28.442014694213867
+Train_MaxReturn : 135.0
+Train_MinReturn : 28.0
+Train_AverageEpLen : 98.3170731707317
+Actor Loss : 54.191463470458984
+Train_EnvstepsSoFar : 109682
+TimeSinceStart : 153.79433012008667
+Done logging...
+
+
+
+********** Iteration 27 ************
+Shape of obs: torch.Size([4018, 4])
+Shape of actions: torch.Size([4018])
+Shape of log probabilities: torch.Size([4018])
+
+Collecting data for eval...
+Eval_AverageReturn : 81.0
+Eval_StdReturn : 32.074913024902344
+Eval_MaxReturn : 114.0
+Eval_MinReturn : 39.0
+Eval_AverageEpLen : 81.0
+Train_AverageReturn : 85.48936462402344
+Train_StdReturn : 33.053070068359375
+Train_MaxReturn : 133.0
+Train_MinReturn : 33.0
+Train_AverageEpLen : 85.48936170212765
+Actor Loss : 49.70338821411133
+Train_EnvstepsSoFar : 113700
+TimeSinceStart : 159.47989583015442
+Done logging...
+
+
+
+********** Iteration 28 ************
+Shape of obs: torch.Size([4068, 4])
+Shape of actions: torch.Size([4068])
+Shape of log probabilities: torch.Size([4068])
+
+Collecting data for eval...
+Eval_AverageReturn : 103.0
+Eval_StdReturn : 23.916521072387695
+Eval_MaxReturn : 120.0
+Eval_MinReturn : 56.0
+Eval_AverageEpLen : 103.0
+Train_AverageReturn : 84.75
+Train_StdReturn : 32.81228256225586
+Train_MaxReturn : 129.0
+Train_MinReturn : 21.0
+Train_AverageEpLen : 84.75
+Actor Loss : 49.31837844848633
+Train_EnvstepsSoFar : 117768
+TimeSinceStart : 165.29401350021362
+Done logging...
+
+
+
+********** Iteration 29 ************
+Shape of obs: torch.Size([4040, 4])
+Shape of actions: torch.Size([4040])
+Shape of log probabilities: torch.Size([4040])
+
+Collecting data for eval...
+Eval_AverageReturn : 110.5
+Eval_StdReturn : 13.79311466217041
+Eval_MaxReturn : 124.0
+Eval_MinReturn : 91.0
+Eval_AverageEpLen : 110.5
+Train_AverageReturn : 89.77777862548828
+Train_StdReturn : 31.19179916381836
+Train_MaxReturn : 127.0
+Train_MinReturn : 22.0
+Train_AverageEpLen : 89.77777777777777
+Actor Loss : 50.588470458984375
+Train_EnvstepsSoFar : 121808
+TimeSinceStart : 171.0005397796631
+Done logging...
+
+
+
+********** Iteration 30 ************
+Shape of obs: torch.Size([4014, 4])
+Shape of actions: torch.Size([4014])
+Shape of log probabilities: torch.Size([4014])
+
+Collecting data for eval...
+Eval_AverageReturn : 109.75
+Eval_StdReturn : 11.321991920471191
+Eval_MaxReturn : 126.0
+Eval_MinReturn : 94.0
+Eval_AverageEpLen : 109.75
+Train_AverageReturn : 108.48648834228516
+Train_StdReturn : 21.087491989135742
+Train_MaxReturn : 200.0
+Train_MinReturn : 54.0
+Train_AverageEpLen : 108.48648648648648
+Actor Loss : 56.68368911743164
+Train_EnvstepsSoFar : 125822
+TimeSinceStart : 176.79996275901794
+Done logging...
+
+
+
+********** Iteration 31 ************
+Shape of obs: torch.Size([4051, 4])
+Shape of actions: torch.Size([4051])
+Shape of log probabilities: torch.Size([4051])
+
+Collecting data for eval...
+Eval_AverageReturn : 125.25
+Eval_StdReturn : 10.871407508850098
+Eval_MaxReturn : 139.0
+Eval_MinReturn : 110.0
+Eval_AverageEpLen : 125.25
+Train_AverageReturn : 115.74285888671875
+Train_StdReturn : 21.02290153503418
+Train_MaxReturn : 200.0
+Train_MinReturn : 80.0
+Train_AverageEpLen : 115.74285714285715
+Actor Loss : 59.475135803222656
+Train_EnvstepsSoFar : 129873
+TimeSinceStart : 183.52571988105774
+Done logging...
+
+
+
+********** Iteration 32 ************
+Shape of obs: torch.Size([4022, 4])
+Shape of actions: torch.Size([4022])
+Shape of log probabilities: torch.Size([4022])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 121.8787841796875
+Train_StdReturn : 28.87460708618164
+Train_MaxReturn : 200.0
+Train_MinReturn : 84.0
+Train_AverageEpLen : 121.87878787878788
+Actor Loss : 63.94578170776367
+Train_EnvstepsSoFar : 133895
+TimeSinceStart : 189.1197280883789
+Done logging...
+
+
+
+********** Iteration 33 ************
+Shape of obs: torch.Size([4038, 4])
+Shape of actions: torch.Size([4038])
+Shape of log probabilities: torch.Size([4038])
+
+Collecting data for eval...
+Eval_AverageReturn : 149.0
+Eval_StdReturn : 40.84931564331055
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 100.0
+Eval_AverageEpLen : 149.0
+Train_AverageReturn : 155.3076934814453
+Train_StdReturn : 43.14801788330078
+Train_MaxReturn : 200.0
+Train_MinReturn : 52.0
+Train_AverageEpLen : 155.30769230769232
+Actor Loss : 83.25012969970703
+Train_EnvstepsSoFar : 137933
+TimeSinceStart : 194.85164737701416
+Done logging...
+
+
+
+********** Iteration 34 ************
+Shape of obs: torch.Size([4003, 4])
+Shape of actions: torch.Size([4003])
+Shape of log probabilities: torch.Size([4003])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 166.7916717529297
+Train_StdReturn : 35.6300163269043
+Train_MaxReturn : 200.0
+Train_MinReturn : 111.0
+Train_AverageEpLen : 166.79166666666666
+Actor Loss : 87.49903106689453
+Train_EnvstepsSoFar : 141936
+TimeSinceStart : 200.6464467048645
+Done logging...
+
+
+
+********** Iteration 35 ************
+Shape of obs: torch.Size([4110, 4])
+Shape of actions: torch.Size([4110])
+Shape of log probabilities: torch.Size([4110])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 178.69564819335938
+Train_StdReturn : 34.47801208496094
+Train_MaxReturn : 200.0
+Train_MinReturn : 88.0
+Train_AverageEpLen : 178.69565217391303
+Actor Loss : 91.82807159423828
+Train_EnvstepsSoFar : 146046
+TimeSinceStart : 206.37595915794373
+Done logging...
+
+
+
+********** Iteration 36 ************
+Shape of obs: torch.Size([4034, 4])
+Shape of actions: torch.Size([4034])
+Shape of log probabilities: torch.Size([4034])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 192.09524536132812
+Train_StdReturn : 23.601665496826172
+Train_MaxReturn : 200.0
+Train_MinReturn : 116.0
+Train_AverageEpLen : 192.0952380952381
+Actor Loss : 96.63346099853516
+Train_EnvstepsSoFar : 150080
+TimeSinceStart : 212.10587191581726
+Done logging...
+
+
+
+********** Iteration 37 ************
+Shape of obs: torch.Size([4158, 4])
+Shape of actions: torch.Size([4158])
+Shape of log probabilities: torch.Size([4158])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 198.0
+Train_StdReturn : 8.9442720413208
+Train_MaxReturn : 200.0
+Train_MinReturn : 158.0
+Train_AverageEpLen : 198.0
+Actor Loss : 98.96344757080078
+Train_EnvstepsSoFar : 154238
+TimeSinceStart : 217.892103433609
+Done logging...
+
+
+
+********** Iteration 38 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 99.22940063476562
+Train_EnvstepsSoFar : 158238
+TimeSinceStart : 223.22844195365906
+Done logging...
+
+
+
+********** Iteration 39 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 102.2887191772461
+Train_EnvstepsSoFar : 162238
+TimeSinceStart : 228.71912479400635
+Done logging...
+
+
+
+********** Iteration 40 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 102.0919418334961
+Train_EnvstepsSoFar : 166238
+TimeSinceStart : 234.2714192867279
+Done logging...
+
+
+
+********** Iteration 41 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 103.18386840820312
+Train_EnvstepsSoFar : 170238
+TimeSinceStart : 239.54719161987305
+Done logging...
+
+
+
+********** Iteration 42 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 198.6666717529297
+Eval_StdReturn : 1.8856180906295776
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 196.0
+Eval_AverageEpLen : 198.66666666666666
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 105.30473327636719
+Train_EnvstepsSoFar : 174238
+TimeSinceStart : 245.2005980014801
+Done logging...
+
+
+
+********** Iteration 43 ************
+Shape of obs: torch.Size([4129, 4])
+Shape of actions: torch.Size([4129])
+Shape of log probabilities: torch.Size([4129])
+
+Collecting data for eval...
+Eval_AverageReturn : 191.3333282470703
+Eval_StdReturn : 9.568467140197754
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 178.0
+Eval_AverageEpLen : 191.33333333333334
+Train_AverageReturn : 196.61904907226562
+Train_StdReturn : 5.6524434089660645
+Train_MaxReturn : 200.0
+Train_MinReturn : 183.0
+Train_AverageEpLen : 196.61904761904762
+Actor Loss : 104.86707305908203
+Train_EnvstepsSoFar : 178367
+TimeSinceStart : 251.18366646766663
+Done logging...
+
+
+
+********** Iteration 44 ************
+Shape of obs: torch.Size([4071, 4])
+Shape of actions: torch.Size([4071])
+Shape of log probabilities: torch.Size([4071])
+
+Collecting data for eval...
+Eval_AverageReturn : 180.3333282470703
+Eval_StdReturn : 7.3635735511779785
+Eval_MaxReturn : 189.0
+Eval_MinReturn : 171.0
+Eval_AverageEpLen : 180.33333333333334
+Train_AverageReturn : 185.0454559326172
+Train_StdReturn : 15.031716346740723
+Train_MaxReturn : 200.0
+Train_MinReturn : 154.0
+Train_AverageEpLen : 185.04545454545453
+Actor Loss : 101.22357177734375
+Train_EnvstepsSoFar : 182438
+TimeSinceStart : 256.90024614334106
+Done logging...
+
+
+
+********** Iteration 45 ************
+Shape of obs: torch.Size([4008, 4])
+Shape of actions: torch.Size([4008])
+Shape of log probabilities: torch.Size([4008])
+
+Collecting data for eval...
+Eval_AverageReturn : 150.0
+Eval_StdReturn : 4.082482814788818
+Eval_MaxReturn : 155.0
+Eval_MinReturn : 145.0
+Eval_AverageEpLen : 150.0
+Train_AverageReturn : 174.2608642578125
+Train_StdReturn : 16.70516014099121
+Train_MaxReturn : 200.0
+Train_MinReturn : 148.0
+Train_AverageEpLen : 174.2608695652174
+Actor Loss : 96.86333465576172
+Train_EnvstepsSoFar : 186446
+TimeSinceStart : 262.54746556282043
+Done logging...
+
+
+
+********** Iteration 46 ************
+Shape of obs: torch.Size([4026, 4])
+Shape of actions: torch.Size([4026])
+Shape of log probabilities: torch.Size([4026])
+
+Collecting data for eval...
+Eval_AverageReturn : 127.5
+Eval_StdReturn : 56.65024185180664
+Eval_MaxReturn : 174.0
+Eval_MinReturn : 31.0
+Eval_AverageEpLen : 127.5
+Train_AverageReturn : 167.75
+Train_StdReturn : 21.19207763671875
+Train_MaxReturn : 200.0
+Train_MinReturn : 125.0
+Train_AverageEpLen : 167.75
+Actor Loss : 94.76085662841797
+Train_EnvstepsSoFar : 190472
+TimeSinceStart : 268.1618025302887
+Done logging...
+
+
+
+********** Iteration 47 ************
+Shape of obs: torch.Size([4067, 4])
+Shape of actions: torch.Size([4067])
+Shape of log probabilities: torch.Size([4067])
+
+Collecting data for eval...
+Eval_AverageReturn : 147.0
+Eval_StdReturn : 14.142135620117188
+Eval_MaxReturn : 157.0
+Eval_MinReturn : 127.0
+Eval_AverageEpLen : 147.0
+Train_AverageReturn : 162.67999267578125
+Train_StdReturn : 18.421119689941406
+Train_MaxReturn : 200.0
+Train_MinReturn : 118.0
+Train_AverageEpLen : 162.68
+Actor Loss : 91.56343078613281
+Train_EnvstepsSoFar : 194539
+TimeSinceStart : 273.53915214538574
+Done logging...
+
+
+
+********** Iteration 48 ************
+Shape of obs: torch.Size([4179, 4])
+Shape of actions: torch.Size([4179])
+Shape of log probabilities: torch.Size([4179])
+
+Collecting data for eval...
+Eval_AverageReturn : 168.3333282470703
+Eval_StdReturn : 18.624954223632812
+Eval_MaxReturn : 182.0
+Eval_MinReturn : 142.0
+Eval_AverageEpLen : 168.33333333333334
+Train_AverageReturn : 167.16000366210938
+Train_StdReturn : 17.066177368164062
+Train_MaxReturn : 195.0
+Train_MinReturn : 138.0
+Train_AverageEpLen : 167.16
+Actor Loss : 93.60397338867188
+Train_EnvstepsSoFar : 198718
+TimeSinceStart : 279.5240321159363
+Done logging...
+
+
+
+********** Iteration 49 ************
+Shape of obs: torch.Size([4047, 4])
+Shape of actions: torch.Size([4047])
+Shape of log probabilities: torch.Size([4047])
+
+Collecting data for eval...
+Eval_AverageReturn : 198.6666717529297
+Eval_StdReturn : 1.8856180906295776
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 196.0
+Eval_AverageEpLen : 198.66666666666666
+Train_AverageReturn : 175.95652770996094
+Train_StdReturn : 18.25061798095703
+Train_MaxReturn : 200.0
+Train_MinReturn : 128.0
+Train_AverageEpLen : 175.95652173913044
+Actor Loss : 98.52733612060547
+Train_EnvstepsSoFar : 202765
+TimeSinceStart : 285.21478509902954
+Done logging...
+
+
+
+********** Iteration 50 ************
+Shape of obs: torch.Size([4092, 4])
+Shape of actions: torch.Size([4092])
+Shape of log probabilities: torch.Size([4092])
+
+Collecting data for eval...
+Eval_AverageReturn : 198.6666717529297
+Eval_StdReturn : 1.8856180906295776
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 196.0
+Eval_AverageEpLen : 198.66666666666666
+Train_AverageReturn : 186.0
+Train_StdReturn : 12.475430488586426
+Train_MaxReturn : 200.0
+Train_MinReturn : 163.0
+Train_AverageEpLen : 186.0
+Actor Loss : 104.77579498291016
+Train_EnvstepsSoFar : 206857
+TimeSinceStart : 291.1837863922119
+Done logging...
+
+
+
+********** Iteration 51 ************
+Shape of obs: torch.Size([4118, 4])
+Shape of actions: torch.Size([4118])
+Shape of log probabilities: torch.Size([4118])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 187.18182373046875
+Train_StdReturn : 17.816326141357422
+Train_MaxReturn : 200.0
+Train_MinReturn : 141.0
+Train_AverageEpLen : 187.1818181818182
+Actor Loss : 105.56317901611328
+Train_EnvstepsSoFar : 210975
+TimeSinceStart : 296.9226326942444
+Done logging...
+
+
+
+********** Iteration 52 ************
+Shape of obs: torch.Size([4143, 4])
+Shape of actions: torch.Size([4143])
+Shape of log probabilities: torch.Size([4143])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 197.2857208251953
+Train_StdReturn : 8.586494445800781
+Train_MaxReturn : 200.0
+Train_MinReturn : 160.0
+Train_AverageEpLen : 197.28571428571428
+Actor Loss : 110.01815032958984
+Train_EnvstepsSoFar : 215118
+TimeSinceStart : 302.60070300102234
+Done logging...
+
+
+
+********** Iteration 53 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 110.91105651855469
+Train_EnvstepsSoFar : 219118
+TimeSinceStart : 307.99364471435547
+Done logging...
+
+
+
+********** Iteration 54 ************
+Shape of obs: torch.Size([4119, 4])
+Shape of actions: torch.Size([4119])
+Shape of log probabilities: torch.Size([4119])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 196.14285278320312
+Train_StdReturn : 17.249666213989258
+Train_MaxReturn : 200.0
+Train_MinReturn : 119.0
+Train_AverageEpLen : 196.14285714285714
+Actor Loss : 109.55762481689453
+Train_EnvstepsSoFar : 223237
+TimeSinceStart : 313.437828540802
+Done logging...
+
+
+
+********** Iteration 55 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 111.9979019165039
+Train_EnvstepsSoFar : 227237
+TimeSinceStart : 319.51011753082275
+Done logging...
+
+
+
+********** Iteration 56 ************
+Shape of obs: torch.Size([4170, 4])
+Shape of actions: torch.Size([4170])
+Shape of log probabilities: torch.Size([4170])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 198.57142639160156
+Train_StdReturn : 6.388765811920166
+Train_MaxReturn : 200.0
+Train_MinReturn : 170.0
+Train_AverageEpLen : 198.57142857142858
+Actor Loss : 109.9245834350586
+Train_EnvstepsSoFar : 231407
+TimeSinceStart : 325.1666672229767
+Done logging...
+
+
+
+********** Iteration 57 ************
+Shape of obs: torch.Size([4172, 4])
+Shape of actions: torch.Size([4172])
+Shape of log probabilities: torch.Size([4172])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 198.6666717529297
+Train_StdReturn : 5.96284818649292
+Train_MaxReturn : 200.0
+Train_MinReturn : 172.0
+Train_AverageEpLen : 198.66666666666666
+Actor Loss : 111.00847625732422
+Train_EnvstepsSoFar : 235579
+TimeSinceStart : 331.0932354927063
+Done logging...
+
+
+
+********** Iteration 58 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 178.3333282470703
+Eval_StdReturn : 30.641292572021484
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 135.0
+Eval_AverageEpLen : 178.33333333333334
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 111.9594955444336
+Train_EnvstepsSoFar : 239579
+TimeSinceStart : 336.85912108421326
+Done logging...
+
+
+
+********** Iteration 59 ************
+Shape of obs: torch.Size([4143, 4])
+Shape of actions: torch.Size([4143])
+Shape of log probabilities: torch.Size([4143])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 197.2857208251953
+Train_StdReturn : 8.767596244812012
+Train_MaxReturn : 200.0
+Train_MinReturn : 163.0
+Train_AverageEpLen : 197.28571428571428
+Actor Loss : 111.42211151123047
+Train_EnvstepsSoFar : 243722
+TimeSinceStart : 342.36201429367065
+Done logging...
+
+
+
+********** Iteration 60 ************
+Shape of obs: torch.Size([4031, 4])
+Shape of actions: torch.Size([4031])
+Shape of log probabilities: torch.Size([4031])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 191.95237731933594
+Train_StdReturn : 27.15121078491211
+Train_MaxReturn : 200.0
+Train_MinReturn : 74.0
+Train_AverageEpLen : 191.95238095238096
+Actor Loss : 110.01025390625
+Train_EnvstepsSoFar : 247753
+TimeSinceStart : 348.72506403923035
+Done logging...
+
+
+
+********** Iteration 61 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 111.3792724609375
+Train_EnvstepsSoFar : 251753
+TimeSinceStart : 354.1923797130585
+Done logging...
+
+
+
+********** Iteration 62 ************
+Shape of obs: torch.Size([4034, 4])
+Shape of actions: torch.Size([4034])
+Shape of log probabilities: torch.Size([4034])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 192.09524536132812
+Train_StdReturn : 29.693519592285156
+Train_MaxReturn : 200.0
+Train_MinReturn : 62.0
+Train_AverageEpLen : 192.0952380952381
+Actor Loss : 110.60099029541016
+Train_EnvstepsSoFar : 255787
+TimeSinceStart : 359.777464389801
+Done logging...
+
+
+
+********** Iteration 63 ************
+Shape of obs: torch.Size([4172, 4])
+Shape of actions: torch.Size([4172])
+Shape of log probabilities: torch.Size([4172])
+
+Collecting data for eval...
+Eval_AverageReturn : 179.0
+Eval_StdReturn : 29.698484420776367
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 137.0
+Eval_AverageEpLen : 179.0
+Train_AverageReturn : 189.63636779785156
+Train_StdReturn : 25.270437240600586
+Train_MaxReturn : 200.0
+Train_MinReturn : 111.0
+Train_AverageEpLen : 189.63636363636363
+Actor Loss : 107.46308898925781
+Train_EnvstepsSoFar : 259959
+TimeSinceStart : 365.9645857810974
+Done logging...
+
+
+
+********** Iteration 64 ************
+Shape of obs: torch.Size([4104, 4])
+Shape of actions: torch.Size([4104])
+Shape of log probabilities: torch.Size([4104])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 195.42857360839844
+Train_StdReturn : 12.90467357635498
+Train_MaxReturn : 200.0
+Train_MinReturn : 144.0
+Train_AverageEpLen : 195.42857142857142
+Actor Loss : 109.39230346679688
+Train_EnvstepsSoFar : 264063
+TimeSinceStart : 371.49209427833557
+Done logging...
+
+
+
+********** Iteration 65 ************
+Shape of obs: torch.Size([4097, 4])
+Shape of actions: torch.Size([4097])
+Shape of log probabilities: torch.Size([4097])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 186.22727966308594
+Train_StdReturn : 31.04385757446289
+Train_MaxReturn : 200.0
+Train_MinReturn : 91.0
+Train_AverageEpLen : 186.22727272727272
+Actor Loss : 105.33905029296875
+Train_EnvstepsSoFar : 268160
+TimeSinceStart : 377.41459035873413
+Done logging...
+
+
+
+********** Iteration 66 ************
+Shape of obs: torch.Size([4128, 4])
+Shape of actions: torch.Size([4128])
+Shape of log probabilities: torch.Size([4128])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 196.57142639160156
+Train_StdReturn : 15.333035469055176
+Train_MaxReturn : 200.0
+Train_MinReturn : 128.0
+Train_AverageEpLen : 196.57142857142858
+Actor Loss : 111.05628204345703
+Train_EnvstepsSoFar : 272288
+TimeSinceStart : 383.007994890213
+Done logging...
+
+
+
+********** Iteration 67 ************
+Shape of obs: torch.Size([4045, 4])
+Shape of actions: torch.Size([4045])
+Shape of log probabilities: torch.Size([4045])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 183.86363220214844
+Train_StdReturn : 40.98480224609375
+Train_MaxReturn : 200.0
+Train_MinReturn : 63.0
+Train_AverageEpLen : 183.86363636363637
+Actor Loss : 108.01002502441406
+Train_EnvstepsSoFar : 276333
+TimeSinceStart : 388.62445092201233
+Done logging...
+
+
+
+********** Iteration 68 ************
+Shape of obs: torch.Size([4003, 4])
+Shape of actions: torch.Size([4003])
+Shape of log probabilities: torch.Size([4003])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 190.61904907226562
+Train_StdReturn : 20.72834587097168
+Train_MaxReturn : 200.0
+Train_MinReturn : 113.0
+Train_AverageEpLen : 190.61904761904762
+Actor Loss : 108.7434310913086
+Train_EnvstepsSoFar : 280336
+TimeSinceStart : 394.86865401268005
+Done logging...
+
+
+
+********** Iteration 69 ************
+Shape of obs: torch.Size([4069, 4])
+Shape of actions: torch.Size([4069])
+Shape of log probabilities: torch.Size([4069])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 193.76190185546875
+Train_StdReturn : 15.209349632263184
+Train_MaxReturn : 200.0
+Train_MinReturn : 136.0
+Train_AverageEpLen : 193.76190476190476
+Actor Loss : 110.16114044189453
+Train_EnvstepsSoFar : 284405
+TimeSinceStart : 400.38016724586487
+Done logging...
+
+
+
+********** Iteration 70 ************
+Shape of obs: torch.Size([4182, 4])
+Shape of actions: torch.Size([4182])
+Shape of log probabilities: torch.Size([4182])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 181.82608032226562
+Train_StdReturn : 44.58958435058594
+Train_MaxReturn : 200.0
+Train_MinReturn : 14.0
+Train_AverageEpLen : 181.82608695652175
+Actor Loss : 108.94051361083984
+Train_EnvstepsSoFar : 288587
+TimeSinceStart : 406.34574794769287
+Done logging...
+
+
+
+********** Iteration 71 ************
+Shape of obs: torch.Size([4143, 4])
+Shape of actions: torch.Size([4143])
+Shape of log probabilities: torch.Size([4143])
+
+Collecting data for eval...
+Eval_AverageReturn : 156.0
+Eval_StdReturn : 35.52463912963867
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 113.0
+Eval_AverageEpLen : 156.0
+Train_AverageReturn : 172.625
+Train_StdReturn : 54.31912612915039
+Train_MaxReturn : 200.0
+Train_MinReturn : 22.0
+Train_AverageEpLen : 172.625
+Actor Loss : 107.7636947631836
+Train_EnvstepsSoFar : 292730
+TimeSinceStart : 412.1926772594452
+Done logging...
+
+
+
+********** Iteration 72 ************
+Shape of obs: torch.Size([4088, 4])
+Shape of actions: torch.Size([4088])
+Shape of log probabilities: torch.Size([4088])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 194.6666717529297
+Train_StdReturn : 20.557313919067383
+Train_MaxReturn : 200.0
+Train_MinReturn : 104.0
+Train_AverageEpLen : 194.66666666666666
+Actor Loss : 111.43631744384766
+Train_EnvstepsSoFar : 296818
+TimeSinceStart : 417.707558631897
+Done logging...
+
+
+
+********** Iteration 73 ************
+Shape of obs: torch.Size([4115, 4])
+Shape of actions: torch.Size([4115])
+Shape of log probabilities: torch.Size([4115])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 178.9130401611328
+Train_StdReturn : 47.08356475830078
+Train_MaxReturn : 200.0
+Train_MinReturn : 54.0
+Train_AverageEpLen : 178.91304347826087
+Actor Loss : 106.49476623535156
+Train_EnvstepsSoFar : 300933
+TimeSinceStart : 423.4296452999115
+Done logging...
+
+
+
+********** Iteration 74 ************
+Shape of obs: torch.Size([4177, 4])
+Shape of actions: torch.Size([4177])
+Shape of log probabilities: torch.Size([4177])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 189.86363220214844
+Train_StdReturn : 26.557477951049805
+Train_MaxReturn : 200.0
+Train_MinReturn : 101.0
+Train_AverageEpLen : 189.86363636363637
+Actor Loss : 108.30516815185547
+Train_EnvstepsSoFar : 305110
+TimeSinceStart : 429.1283047199249
+Done logging...
+
+
+
+********** Iteration 75 ************
+Shape of obs: torch.Size([4125, 4])
+Shape of actions: torch.Size([4125])
+Shape of log probabilities: torch.Size([4125])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 196.42857360839844
+Train_StdReturn : 15.971912384033203
+Train_MaxReturn : 200.0
+Train_MinReturn : 125.0
+Train_AverageEpLen : 196.42857142857142
+Actor Loss : 107.19015502929688
+Train_EnvstepsSoFar : 309235
+TimeSinceStart : 434.66503381729126
+Done logging...
+
+
+
+********** Iteration 76 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 106.8445816040039
+Train_EnvstepsSoFar : 313235
+TimeSinceStart : 440.4536862373352
+Done logging...
+
+
+
+********** Iteration 77 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 105.0155029296875
+Train_EnvstepsSoFar : 317235
+TimeSinceStart : 446.022253036499
+Done logging...
+
+
+
+********** Iteration 78 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 102.73057556152344
+Train_EnvstepsSoFar : 321235
+TimeSinceStart : 451.5455119609833
+Done logging...
+
+
+
+********** Iteration 79 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 98.35356140136719
+Train_EnvstepsSoFar : 325235
+TimeSinceStart : 457.10052847862244
+Done logging...
+
+
+
+********** Iteration 80 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 98.1180648803711
+Train_EnvstepsSoFar : 329235
+TimeSinceStart : 462.5443205833435
+Done logging...
+
+
+
+********** Iteration 81 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 93.81063842773438
+Train_EnvstepsSoFar : 333235
+TimeSinceStart : 468.3837306499481
+Done logging...
+
+
+
+********** Iteration 82 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 92.20174407958984
+Train_EnvstepsSoFar : 337235
+TimeSinceStart : 474.0252230167389
+Done logging...
+
+
+
+********** Iteration 83 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 90.42603302001953
+Train_EnvstepsSoFar : 341235
+TimeSinceStart : 479.52850437164307
+Done logging...
+
+
+
+********** Iteration 84 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 87.69438934326172
+Train_EnvstepsSoFar : 345235
+TimeSinceStart : 486.25701570510864
+Done logging...
+
+
+
+********** Iteration 85 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 85.90247344970703
+Train_EnvstepsSoFar : 349235
+TimeSinceStart : 491.6102468967438
+Done logging...
+
+
+
+********** Iteration 86 ************
+Shape of obs: torch.Size([4172, 4])
+Shape of actions: torch.Size([4172])
+Shape of log probabilities: torch.Size([4172])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 198.6666717529297
+Train_StdReturn : 5.96284818649292
+Train_MaxReturn : 200.0
+Train_MinReturn : 172.0
+Train_AverageEpLen : 198.66666666666666
+Actor Loss : 85.68994903564453
+Train_EnvstepsSoFar : 353407
+TimeSinceStart : 497.3426892757416
+Done logging...
+
+
+
+********** Iteration 87 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 81.02053833007812
+Train_EnvstepsSoFar : 357407
+TimeSinceStart : 502.77907371520996
+Done logging...
+
+
+
+********** Iteration 88 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 83.00759887695312
+Train_EnvstepsSoFar : 361407
+TimeSinceStart : 508.02261304855347
+Done logging...
+
+
+
+********** Iteration 89 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 81.6884536743164
+Train_EnvstepsSoFar : 365407
+TimeSinceStart : 513.3372077941895
+Done logging...
+
+
+
+********** Iteration 90 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 81.47874450683594
+Train_EnvstepsSoFar : 369407
+TimeSinceStart : 518.9656157493591
+Done logging...
+
+
+
+********** Iteration 91 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 78.31330871582031
+Train_EnvstepsSoFar : 373407
+TimeSinceStart : 524.3113005161285
+Done logging...
+
+
+
+********** Iteration 92 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 79.70863342285156
+Train_EnvstepsSoFar : 377407
+TimeSinceStart : 529.8398377895355
+Done logging...
+
+
+
+********** Iteration 93 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 77.31405639648438
+Train_EnvstepsSoFar : 381407
+TimeSinceStart : 535.2527565956116
+Done logging...
+
+
+
+********** Iteration 94 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 76.82107543945312
+Train_EnvstepsSoFar : 385407
+TimeSinceStart : 540.5571398735046
+Done logging...
+
+
+
+********** Iteration 95 ************
+Shape of obs: torch.Size([4000, 4])
+Shape of actions: torch.Size([4000])
+Shape of log probabilities: torch.Size([4000])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 200.0
+Train_StdReturn : 0.0
+Train_MaxReturn : 200.0
+Train_MinReturn : 200.0
+Train_AverageEpLen : 200.0
+Actor Loss : 77.75482177734375
+Train_EnvstepsSoFar : 389407
+TimeSinceStart : 546.1412153244019
+Done logging...
+
+
+
+********** Iteration 96 ************
+Shape of obs: torch.Size([4192, 4])
+Shape of actions: torch.Size([4192])
+Shape of log probabilities: torch.Size([4192])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 199.61904907226562
+Train_StdReturn : 1.7036707401275635
+Train_MaxReturn : 200.0
+Train_MinReturn : 192.0
+Train_AverageEpLen : 199.61904761904762
+Actor Loss : 79.23407745361328
+Train_EnvstepsSoFar : 393599
+TimeSinceStart : 551.8129885196686
+Done logging...
+
+
+
+********** Iteration 97 ************
+Shape of obs: torch.Size([4187, 4])
+Shape of actions: torch.Size([4187])
+Shape of log probabilities: torch.Size([4187])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 199.38095092773438
+Train_StdReturn : 2.768465280532837
+Train_MaxReturn : 200.0
+Train_MinReturn : 187.0
+Train_AverageEpLen : 199.38095238095238
+Actor Loss : 78.79502868652344
+Train_EnvstepsSoFar : 397786
+TimeSinceStart : 557.8992352485657
+Done logging...
+
+
+
+********** Iteration 98 ************
+Shape of obs: torch.Size([4120, 4])
+Shape of actions: torch.Size([4120])
+Shape of log probabilities: torch.Size([4120])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 196.1904754638672
+Train_StdReturn : 17.036710739135742
+Train_MaxReturn : 200.0
+Train_MinReturn : 120.0
+Train_AverageEpLen : 196.1904761904762
+Actor Loss : 78.30461120605469
+Train_EnvstepsSoFar : 401906
+TimeSinceStart : 563.5986015796661
+Done logging...
+
+
+
+********** Iteration 99 ************
+Shape of obs: torch.Size([4137, 4])
+Shape of actions: torch.Size([4137])
+Shape of log probabilities: torch.Size([4137])
+
+Collecting data for eval...
+Eval_AverageReturn : 200.0
+Eval_StdReturn : 0.0
+Eval_MaxReturn : 200.0
+Eval_MinReturn : 200.0
+Eval_AverageEpLen : 200.0
+Train_AverageReturn : 197.0
+Train_StdReturn : 7.596992015838623
+Train_MaxReturn : 200.0
+Train_MinReturn : 172.0
+Train_AverageEpLen : 197.0
+Actor Loss : 77.22964477539062
+Train_EnvstepsSoFar : 406043
+TimeSinceStart : 569.1116316318512
+Done logging...
+
+
+[1;34mwandb[0m: 
+[1;34mwandb[0m: 🚀 View run [33mCartPole-v0_cartpole_lb_sd1_20260219_143529[0m at: [34m[0m
+[1;34mwandb[0m: Find logs at: [1;35m..\..\..\..\..\AppData\Local\Temp\tmpzgsr5p91\wandb\run-20260219_143529-9rm6vqkv\logs[0m
