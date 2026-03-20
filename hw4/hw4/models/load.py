@@ -110,8 +110,6 @@ def load_lora_policy_model_and_tokenizer(
     base = AutoModelForCausalLM.from_pretrained(
         model_name,
         **_build_model_kwargs(dtype=dtype),
-        torch_dtype=torch.bfloat16,
-        attn_implementation="flash_attention_2",
     )
     if grad_checkpointing:
         base.gradient_checkpointing_enable()
@@ -170,8 +168,6 @@ def load_inference_model_and_tokenizer(
     base = AutoModelForCausalLM.from_pretrained(
         model_name,
         **_build_model_kwargs(dtype=dtype),
-        torch_dtype=torch.bfloat16,
-        attn_implementation="flash_attention_2",
     )
     if adapter_path is not None:
         model = PeftModel.from_pretrained(base, adapter_path, is_trainable=False)

@@ -73,8 +73,8 @@ def build_completion_mask(
     mask = torch.zeros((B, L - 1), dtype=torch.float, device=input_ids.device)
     for t in range(L - 1):
         token = input_ids[:, t+1]
-        if(t+1 > prompt_input_len and token != pad_token_id):
-            mask[:, t] = 1.0
+        if(t+1 >= prompt_input_len):
+            mask[:, t] = (token != pad_token_id).float()
     return mask
     # Equivalently, the FIRST completion token lives at token index prompt_input_len
     # in input_ids, which corresponds to per-token logprob index prompt_input_len - 1.
