@@ -11,6 +11,7 @@ from agents import agents
 from infrastructure import utils
 from infrastructure import pytorch_util as ptu
 from infrastructure.log_utils import setup_wandb, Logger, dump_log
+import wandb
 
 
 def run_training_loop(config: dict, train_logger, eval_logger, args: argparse.Namespace):
@@ -70,6 +71,7 @@ def run_training_loop(config: dict, train_logger, eval_logger, args: argparse.Na
             )
 
     dump_log(agent, train_logger, eval_logger, config, args.save_dir)
+    wandb.finish()
 
 
 def setup_arguments(args=None):

@@ -1,0 +1,6 @@
+# ignore all pycache, exp, submit, .pt, .exe
+__pycache__/
+exp/
+submit/
+*.pt
+*.exe

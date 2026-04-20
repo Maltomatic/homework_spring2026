@@ -58,8 +58,8 @@ class IQLAgent(nn.Module):
         """
         Compute the expectile loss for IQL
         """
-        # TODO(student): Implement the expectile loss
-        return ...
+        # TODO(V?)(student): Implement the expectile loss
+        return abs(expectile - torch.where(adv > 0, 1, 0)) * adv ** 2
 
     @torch.compile
     def update_v(
@@ -70,9 +70,11 @@ class IQLAgent(nn.Module):
         """
         Update V(s) with expectile regression
         """
-        # TODO(student): Compute the value loss
-        v = ...
-        loss = ...
+        with torch.no_grad():
+            q = self.target_critic(observations, actions).min(dim=0).values
+        v = self.value(observations).squeeze()
+        adv = v - q
+        loss = self.iql_expectile_loss(adv, self.expectile).mean()
 
         self.value_optimizer.zero_grad()
         loss.backward()
@@ -97,9 +99,12 @@ class IQLAgent(nn.Module):
         """
         Update Q(s, a)
         """
-        # TODO(student): Compute the Q loss
-        q = ...
-        loss = ...
+        # TODO(V)(student): Compute the Q loss
+        with torch.no_grad():
+            disc_v = self.discount * (1 - dones) * self.value(next_observations).squeeze()
+            y = rewards + disc_v
+        q = self.critic(observations, actions)
+        loss = nn.MSELoss()(q, y).mean()
 
         self.critic_optimizer.zero_grad()
         loss.backward()
@@ -121,9 +126,15 @@ class IQLAgent(nn.Module):
         """
         Update the actor using advantage-weighted regression
         """
-        # TODO(student): Compute the actor loss
-        dist = ...
-        loss = ...
+        # TODO(V)(student): Compute the actor loss
+        dist = self.actor(observations)
+        with torch.no_grad():
+            q = self.target_critic(observations, actions).min(dim=0).values
+            v = self.value(observations).squeeze()
+            adv = q - v
+            weight = torch.exp(self.alpha * adv).clamp(max=100.0)
+
+        loss = -(weight * dist.log_prob(actions)).mean()
 
         self.actor_optimizer.zero_grad()
         loss.backward()
@@ -157,5 +168,6 @@ class IQLAgent(nn.Module):
         return metrics
 
     def update_target_critic(self) -> None:
-        # TODO(student): Update target_critic using Polyak averaging with self.target_update_rate
-        ...
+        # TODO(V)(student): Update target_critic using Polyak averaging with self.target_update_rate
+        for param, target_param in zip(self.critic.parameters(), self.target_critic.parameters()):
+            target_param.data.copy_(self.target_update_rate * param.data + (1 - self.target_update_rate) * target_param.data)
